@@ -1,0 +1,106 @@
+/* styles.css */
+:root {
+    --primary-color: #ff6f61; /* Color principal */
+    --secondary-color: #f5f5f5; /* Color secundario */
+    --text-color: #333;
+    --background-color: #ffffff; /* Fondo blanco para un aspecto limpio */
+    --hover-color: #ff4f3d; /* Color al pasar el ratón */
+    --border-radius: 8px; /* Bordes redondeados */
+    --box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--hover-color);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Ajusta este valor si es necesario */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo, ajusta según necesites */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para ocultar cualquier desbordamiento */
+}
+
+  
+  .card {
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+  
+  .card h3 {
+    color: var(--primary-color);
+  }
+  
+  .card h4 {
+    margin: 10px 0;
+    color: var(--text-color);
+  }
+  
+  button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: var(--hover-color);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: var(--primary-color);
+    color: white;
+  }
+  

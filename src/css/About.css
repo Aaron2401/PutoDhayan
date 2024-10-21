@@ -1,0 +1,49 @@
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Fondo claro para destacar el contenido */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limitar el ancho para un diseño más limpio */
+    margin: auto; /* Centrar el contenedor */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333; /* Color más oscuro para el título */
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #555; /* Color del subtítulo */
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #007bff; /* Color del encabezado de valores */
+}
+
+h5 {
+    color: #666; /* Color del texto secundario */
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 1rem 0;
+    padding-left: 20px;
+}
+
+.contact-info {
+    background-color: #e9ecef; /* Fondo gris claro para la sección de contacto */
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1.5rem 0; /* Espaciado entre secciones */
+}
+
+.footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #ccc; /* Línea divisoria */
+}
